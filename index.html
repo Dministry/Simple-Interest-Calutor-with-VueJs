@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple-Interest</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div id="container">
+        <form action="" id="calculator">
+            <h1>Simple Interest calculator</h1>
+           <label for="price">Principal</label>
+            <input type="number" class="money" v-model="price"><br>
+            <label for="rate">Rate</label>
+            <input type="number" class="money" v-model="rate"><br>
+            <label for="time">Time</label>
+            <input type="number" class="money" v-model="time"><br>
+            <p>Your simple interest is = ${{result}}</p>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
